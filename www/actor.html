@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="shortcut icon" href="images/logo.ico" />
+        <link rel="stylesheet" href="Content/bootstrap.css" />
+        <script src="Scripts/jquery-1.9.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="Scripts/bootstrap.js"></script>
+        <script src="Content/bootstrap.min.css"></script>
+        <script src="Scripts/ie10-viewport-bug-workaround.js"></script>       
+        <script src="Scripts/function.js"></script>
+        <script>
+            GetCategory();
+            GetActor();
+        </script>
+        <title>Le-AV</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+              Le-AV
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">主頁 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">分類</a>
+                <div id = "dropdown-menu" class="dropdown-menu" aria-labelledby="dropdown01">
+ 
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="actor.html">女優<span class="sr-only"></span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>     
+        <div class="container-fluid" style="padding-top:60px;">
+            <div class="row" id = "actorDiv">
+
+            </div>
+      
+        </div>  
+        <div class="container-fluid">
+            <div class ="row">
+                <div class="col-md-12" style="text-align:center">
+                    Copyright © Le-AV.com | <a href = 'terms.aspx'>Terms & Condition</a>
+                </div>
+            </div>
+        </div>        
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
